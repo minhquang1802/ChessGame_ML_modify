@@ -206,7 +206,7 @@ def start(board):
                     game_over = True
                     game_over_txt = 'DRAW!'
 
-                get_random_move(board)
+                get_ai_move(board)
                 board.switch_player()
                 draw_background(board)
                 time.sleep(0.1)

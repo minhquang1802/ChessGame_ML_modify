@@ -19,7 +19,7 @@ if __name__ == '__main__':
         print("6. Using ML")
         difficulty = int(input("Enter your choice: "))
         initial.setDifficulty(difficulty)
-        if difficulty == 3 or difficulty == 5:
+        if difficulty == 3 or difficulty == 5 or difficulty == 6:
             initDepth = 3
         else:
             initDepth = 1
